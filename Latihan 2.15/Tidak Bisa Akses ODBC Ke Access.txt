@@ -1,0 +1,4 @@
+Driver class 'sun.jdbc.odbc.JdbcOdbcDriver' could not be found, make sure the 'MS Access' driver (jar file) is installed.
+sun.jdbc.odbc.JdbcOdbcDriver
+
+https://forums.pentaho.com/threads/179550-Problem-with-MS-Access-Connexion/
