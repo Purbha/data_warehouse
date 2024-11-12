@@ -676,7 +676,7 @@
     </partitioning>
     <sourceFromInput>N</sourceFromInput>
     <sourceFieldName/>
-    <filename>C:\Users\Irsyad\Documents\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.8\Propinsi Lainnya.xml</filename>
+    <filename>D:\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.8\Propinsi Lainnya.xml</filename>
     <addResultFile>N</addResultFile>
     <nrRowsToSkip>0</nrRowsToSkip>
     <rowLimit>0</rowLimit>

@@ -615,7 +615,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>208</xloc>
+      <xloc>272</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -702,7 +702,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
+      <xloc>432</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -735,7 +735,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
+      <xloc>912</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -776,7 +776,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
+      <xloc>768</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -841,7 +841,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>448</xloc>
+      <xloc>576</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -906,7 +906,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>464</xloc>
+      <xloc>544</xloc>
       <yloc>336</yloc>
       <draw>Y</draw>
     </GUI>
@@ -936,7 +936,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\Irsyad\Documents\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.10\Tulisan Acak</name>
+      <name>D:\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.10\Tulisan Acak</name>
       <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
@@ -987,7 +987,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
+      <xloc>1040</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>

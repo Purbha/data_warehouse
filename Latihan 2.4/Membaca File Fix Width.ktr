@@ -430,7 +430,7 @@
     <created_date>2015/11/07 17:05:16.986</created_date>
     <modified_user>-</modified_user>
     <modified_date>2015/11/07 17:05:16.986</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -476,7 +476,7 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C:\Users\Irsyad\Documents\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.4\Propinsi Di Pulau Jawa.txt</name>
+      <name>C:/Users/Irsyad/Documents/Dosen/UIA/Data Warehouse/Latihan Kettle/Latihan 2.4/Propinsi Di Pulau Jawa.txt</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -558,6 +558,7 @@
     <rootUriNameFieldName/>
     <extensionFieldName/>
     <sizeFieldName/>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -576,4 +577,5 @@
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes/>
 </transformation>

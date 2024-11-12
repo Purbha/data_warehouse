@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>Job Pertama</name>
+  <name>TestJob</name>
   <description/>
   <extended_description/>
   <job_version/>
   <directory>/</directory>
   <created_user>-</created_user>
-  <created_date>2015/10/11 11:24:23.781</created_date>
+  <created_date>2024/11/02 10:20:16.778</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2015/10/11 11:24:23.781</modified_date>
+  <modified_date>2024/11/02 10:20:16.778</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -287,14 +287,14 @@
   <shared_objects_file/>
   <entries>
     <entry>
-      <name>START</name>
+      <name>Start</name>
       <description/>
       <type>SPECIAL</type>
       <attributes/>
       <start>Y</start>
       <dummy>N</dummy>
-      <repeat>N</repeat>
-      <schedulerType>0</schedulerType>
+      <repeat>Y</repeat>
+      <schedulerType>1</schedulerType>
       <intervalSeconds>5</intervalSeconds>
       <intervalMinutes>0</intervalMinutes>
       <hour>12</hour>
@@ -305,28 +305,28 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>112</xloc>
-      <yloc>176</yloc>
+      <yloc>96</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Display Msgbox Info (Irsyad)</name>
+      <name>Display msgbox info</name>
       <description/>
       <type>MSGBOX_INFO</type>
       <attributes/>
-      <bodymessage>Assalamualaikum..</bodymessage>
-      <titremessage>Info</titremessage>
+      <bodymessage>Halo</bodymessage>
+      <titremessage>Judul</titremessage>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>224</xloc>
-      <yloc>304</yloc>
+      <xloc>320</xloc>
+      <yloc>96</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
-      <from>START</from>
-      <to>Display Msgbox Info (Irsyad)</to>
+      <from>Start</from>
+      <to>Display msgbox info</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

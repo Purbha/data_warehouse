@@ -291,6 +291,7 @@
       <name>START</name>
       <description/>
       <type>SPECIAL</type>
+      <attributes/>
       <start>Y</start>
       <dummy>N</dummy>
       <repeat>N</repeat>
@@ -306,23 +307,27 @@
       <nr>0</nr>
       <xloc>128</xloc>
       <yloc>64</yloc>
+      <attributes_kjc/>
     </entry>
     <entry>
       <name>Display Msgbox Info</name>
       <description/>
       <type>MSGBOX_INFO</type>
+      <attributes/>
       <bodymessage>Assalamualaikum ${nama}</bodymessage>
       <titremessage>Info</titremessage>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>448</xloc>
-      <yloc>64</yloc>
+      <yloc>80</yloc>
+      <attributes_kjc/>
     </entry>
     <entry>
-      <name>Set variables</name>
+      <name>Set variables (Irsyad)</name>
       <description/>
       <type>SET_VARIABLES</type>
+      <attributes/>
       <replacevars>Y</replacevars>
       <filename/>
       <file_variable_type>JVM</file_variable_type>
@@ -337,13 +342,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>272</xloc>
-      <yloc>160</yloc>
+      <yloc>208</yloc>
+      <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
       <from>START</from>
-      <to>Set variables</to>
+      <to>Set variables (Irsyad)</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -351,7 +357,7 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Set variables</from>
+      <from>Set variables (Irsyad)</from>
       <to>Display Msgbox Info</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -362,4 +368,5 @@
   </hops>
   <notepads>
   </notepads>
+  <attributes/>
 </job>

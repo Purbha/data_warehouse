@@ -430,7 +430,7 @@
     <created_date>2015/11/07 17:18:25.503</created_date>
     <modified_user>-</modified_user>
     <modified_date>2015/11/07 17:18:25.503</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -498,6 +498,7 @@ if (Field1 == null)
         <replace>N</replace>
       </field>
     </fields>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -506,7 +507,7 @@ if (Field1 == null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>208</xloc>
+      <xloc>192</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
@@ -563,6 +564,7 @@ if (Field1 == null)
         <currency/>
       </field>
     </fields>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -637,6 +639,7 @@ if (Field1 == null)
         <target_aggregation_type>-</target_aggregation_type>
       </field>
     </fields>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -664,15 +667,19 @@ if (Field1 == null)
     <fields>
       <field>
         <name>Propinsi</name>
+        <rename/>
       </field>
       <field>
         <name>Ibu Kota</name>
+        <rename/>
       </field>
       <field>
         <name>Populasi</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -725,12 +732,7 @@ if (Field1 == null)
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C:\Users\Irsyad\Documents\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.5\Propinsi Di Pulau Kalimantan.txt</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <name/>
+      <name>C:/Users/Irsyad/Documents/Dosen/UIA/Data Warehouse/Latihan Kettle/Latihan 2.5/Propinsi Di Pulau Kalimantan.txt</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -782,6 +784,7 @@ if (Field1 == null)
     <rootUriNameFieldName/>
     <extensionFieldName/>
     <sizeFieldName/>
+    <attributes/>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -790,8 +793,8 @@ if (Field1 == null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
-      <yloc>48</yloc>
+      <xloc>80</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -800,4 +803,5 @@ if (Field1 == null)
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes/>
 </transformation>

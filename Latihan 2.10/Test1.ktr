@@ -444,7 +444,7 @@
     </hop>
     <hop>
       <from>String operations 2</from>
-      <to>Text file output</to>
+      <to>Text file output (Irsyad)</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -550,12 +550,12 @@
     </remotesteps>
     <GUI>
       <xloc>368</xloc>
-      <yloc>64</yloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Text file output</name>
+    <name>Text file output (Irsyad)</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -579,7 +579,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\Irsyad\Documents\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.10\Tulisan Acak</name>
+      <name>D:\Dosen\UIA\Data Warehouse\Latihan Kettle\Latihan 2.10\Tulisan Acak</name>
       <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
@@ -630,7 +630,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
+      <xloc>592</xloc>
       <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
